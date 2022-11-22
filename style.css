@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+}
+
+nav {
+  width: 100%;
+  background-color: #cadbed;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #2c71b8;
+  padding: 10px 25px;
+  display: block;
+}
+
+.menu-item {
+  border-left: 1px solid #2c71b8;
+}
+
+.menu-item a:hover {
+  color: #ffffff;
+  background-color: #2c71b8;
+}
+
+.search {
+  padding: 10px 15px;
+  background-color: #cadbed;
+  border-color: #2c71b8;
+  outline: none;
+}
+
+.search::placeholder {
+  color: #2c71b8;
+}
+
+.search-img {
+  background-color: blue;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.input-search-position {
+  position: relative;
+}
+
+.img-search-position {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+
+.cart-icon {
+  background-color: #cadbed;
+  border: none;
+  cursor: pointer;
+}
